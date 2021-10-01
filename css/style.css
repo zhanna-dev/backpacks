@@ -325,11 +325,15 @@ button {
   text-decoration: underline;
 }
 
-.heading {
+.subheading {
   font-family: serif;
   font-size: 20px;
   font-weight: 1.5;
   color: var(--primary-color);
+}
+
+.heading {
+  font-style: bold;
 }
 
 /* ***********************header-start********************************************* */
@@ -346,7 +350,7 @@ button {
 .header-menu-wrap {
   display: flex;
   justify-content: space-between;
-  
+  align-items: center;
 }
 
 .header-nav {
@@ -357,4 +361,18 @@ button {
 .header-nav > li > a {
   font-size: 16px;
   padding: 14px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
 }
+
+a {
+}
+
+.btn {
+  padding: 15px 30px;
+  background: var(--primary-color);
+  line-height: 1.2;
+}
+/* ***********************header-end************************************************ */
+/* ***********************hero-start************************************************** */
