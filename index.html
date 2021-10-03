@@ -2,29 +2,30 @@
 <html lang="en">
 
 <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
     <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>BACKPACKS</title>
+</head>
 
 <body>
-    <header class="header">
+    <header class="header mt-4">
         <div class="container">
             <nav class="header-navbar">
-                <a href=""><img src="./img/logo-menu.svg" alt="logo bag"></a>
+                <a href="/" class="logo text-deco"> Bag </a>
                 <div class="header-menu-wrap">
                     <ul class="header-nav">
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">feature</a></li>
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">about</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Feature</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Product</a></li>
                     </ul>
-                    <button type="button" class="btn btn-success">shop now</button>
+                    <button type="button" class="btn">Shop now</button>
                 </div>
             </nav>
         </div>
@@ -32,13 +33,28 @@
     <main class="main">
         <section class="hero">
             <div class="container">
-                <div class="row">
-                    <div class="col-5">
+                <div class="row align-items-center">
+                    <div class="col-5 hero-info">
                         <h1 class="subheading hero-subheading">Look Stylish Be Stylish.</h1>
-                        <h2 class="heading hero-heading">Look Stylish Be <span>Stylish</span></h2>
+                        <h2 class="heading hero-heading">
+                            Look Stylish <br />
+                            Be <span class="text-deco">Stylish</span>
+                        </h2>
+                        <p>
+                            Before starting this business you should have ideas about the market and products to Compete
+                            with the
+                            Existing Businesses.
+                        </p>
+                        <button type="button" class="btn">Join Shop</button>
+                        <div class="hero-cta-img-wrap">
+                            <img class="hero-cta-img" src="./img/cta-off.png" width="1" height="1" loading="lazy"
+                                decoding="async" alt="cta" />
+                        </div>
                     </div>
-                    <div class="col-7"><img class="hero-img" width="1" height="1" loading=lazy decoding="asyng"
-                            src="./img/hero-img.webp" alt="hero img the girl with backpack"></div>
+                    <div class="col-7 d-flex">
+                        <img class="hero-img ms-auto" width="1" height="1" loading="lazy" decoding="async"
+                            src="./img/hero-img.png" alt="hero img the girl with backpack" />
+                    </div>
                 </div>
             </div>
         </section>
@@ -46,31 +62,36 @@
     <section class="categories section">
         <div class="container">
             <div class="row">
-                <div class="col-3">
-                    <img width="1" height="1" loading=lazy decoding="asyng" src="./img/cat-water-img.webp"
-                        alt="pic water resistant backpack">
-                </div>
-                <div class="col-3">
-                    <img width="1" height="1" loading=lazy decoding="asyng" src="./img/cat-charge-img.webp"
-                        alt="pic charging system backpack">
-                </div>
-                <div class="col-3"><img width="1" height="1" loading=lazy decoding="asyng"
-                        src="./img/cat-artificial-leather-img.webp" alt="pic artificial leather backpack"></div>
-                <div class="col-3"><img width="1" height="1" loading=lazy decoding="asyng"
-                        src="./img/cat-modern-clothes-img.webp" alt="pic modern clothes backpack"></div>
+                <div class="col-3 cat-tab text-center">Tab 1</div>
+                <div class="col-3 cat-tab text-center active">Tab 2</div>
+                <div class="col-3 cat-tab text-center">Tab 3</div>
+                <div class="col-3 cat-tab text-center">Tab 4</div>
             </div>
-            <dir class="row">
-                <div class="col-3">Tab 1 contents</div>
-                <div class="col-3">Tab 1 contents</div>
-                <div class="col-3">Tab 1 contents</div>
-                <div class="col-3">Tab 1 contents</div>
-            </dir>
+            <div class="row mt-5">
+                <div class="col-3">
+                    <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
+                        src="./img/cat-water-img.webp" alt="pic water resistant backpack" />
+                </div>
+                <div class="col-3">
+                    <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
+                        src="./img/cat-charge-img.webp" alt="pic charging system backpack" />
+                </div>
+                <div class="col-3">
+                    <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
+                        src="./img/cat-artificial-leather-img.webp" alt="pic artificial leather backpack" />
+                </div>
+                <div class="col-3">
+                    <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
+                        src="./img/cat-modern-clothes-img.webp" alt="pic modern clothes backpack" />
+                </div>
+            </div>
+
         </div>
     </section>
     <section class="about section">
         <div class="container">
             <div class="row">
-                <div class="col-7"><img src="" alt="about img"></div>
+                <div class="col-7"><img src="" alt="about img" /></div>
                 <div class="col-5">about text</div>
             </div>
         </div>
@@ -78,9 +99,10 @@
     <section class="gallery section">
         <div class="container">
             <h2 class="text-center">Our available product</h2>
-            <h3 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor
-                incididunt ut labore et dolore.</h3>
+            <h3 class="text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore.
+            </h3>
             <div class="row">
                 <div class="col-3">gallery item 1</div>
                 <div class="col-3">gallery item 2</div>
@@ -92,21 +114,22 @@
                 <div class="col-3">gallery item 8</div>
             </div>
             <button class="btn btn-secondary">see more</button>
-
         </div>
     </section>
     <section class="feedback section">
         <div class="container">
             <div class="row g-0">
-                <div class="col-5"><img width="" height="" loading=lazy decoding=asyng class="img-fluid"
-                        src="./img/feedback-img.webp" alt="the back with a red backpack on the back"></div>
+                <div class="col-5">
+                    <img width="1" height="1" loading="lazy" decoding="async" class="img-fluid"
+                        src="./img/feedback-img.webp" alt="the back with a red backpack on the back" />
+                </div>
                 <div class="col-7 bg-secondary">
                     <h2 class="feedback heading">Lorem ipsum dolor sit amet adipiscing elit.</h2>
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
+                    <input type="text" />
+                    <input type="text" />
+                    <input type="text" />
                     <label>
-                        <input type="checkbox">
+                        <input type="checkbox" />
                         Lorem ipsum dolor sit amet.
                     </label>
                     <button type="submit" class="btn btn-success">join now</button>
@@ -114,22 +137,22 @@
             </div>
         </div>
     </section>
-    <div class="brends section ">
+    <div class="brends section">
         <div class="container">
             <div class="row">
-                <div class="col-3"><img src="" alt="img brend 1"></div>
-                <div class="col-3"><img src="" alt="img brend 2"></div>
-                <div class="col-3"><img src="" alt="img brend 3"></div>
-                <div class="col-3"><img src="" alt="img brend 4"></div>
+                <div class="col-3"><img src="" alt="img brend 1" /></div>
+                <div class="col-3"><img src="" alt="img brend 2" /></div>
+                <div class="col-3"><img src="" alt="img brend 3" /></div>
+                <div class="col-3"><img src="" alt="img brend 4" /></div>
             </div>
         </div>
     </div>
-    <div class="footer section">
+    <footer class="footer section">
         <div class="container">
             <div class="row">
-                <div class="col-3"><a class="logo" href="/">Logo</a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing
-                        sed do eiusmod.</p>
+                <div class="col-3">
+                    <a class="logo" href="/">Logo</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing sed do eiusmod.</p>
                 </div>
                 <div class="col-3">
                     <h2 class="footer heading">footer heading</h2>
@@ -151,20 +174,13 @@
                 <div class="col-3">
                     <h2 class="footer heading">footer heading</h2>
                     <form>
-                        <input type="email">
+                        <input type="email" />
                         <button type="submit" class="btn btn-success">subscribe</button>
                     </form>
                 </div>
             </div>
         </div>
-    </div>
-
-
-
-
-
-
-
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
