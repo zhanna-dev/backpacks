@@ -329,8 +329,7 @@ button {
   line-height: 1.2;
   color: var(--text-light);
 }
-.btn:hover {
-}
+
 .text-deco {
   background: url(../img/text-deco.png) 0 50% / auto 300%;
   line-height: 1.5;
@@ -482,6 +481,49 @@ p {
   margin: 24px 0 35px;
 }
 /***********************about-end************************************/
+/***********************gallery-start************************************/
+.gallery-heading {
+  font-size: 34px;
+  line-height: 1.4;
+}
+
+.gallery-text {
+  line-height: 1.6;
+  width: 510px;
+  height: 52px;
+  text-align: center;
+  margin: 25px auto 60px;
+}
+
+.gallery-img {
+  width: 187px;
+  height: 281px;
+}
+
+.gallery-bg-pink {
+  background: rgba(255, 222, 231, 1);
+}
+
+.gallery-bg-yellow {
+  background: rgba(235, 244, 191, 1);
+}
+
+.gallery-bg-violet {
+  background: rgba(249, 220, 255, 1);
+}
+
+.btn-secondary {
+  background: none;
+  border: var(--primary-color) solid 1px;
+  width: 170px;
+  height: 49px;
+  margin: 0 auto;
+}
+
+.btn-secondary::after {
+  
+}
+/***********************gallery-end************************************/
 
 .footer {
   padding: var(--section-gutter) 0;
