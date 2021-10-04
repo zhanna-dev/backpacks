@@ -512,19 +512,44 @@ p {
   background: rgba(249, 220, 255, 1);
 }
 
-.btn-secondary {
+.btn-gallery {
+  color: var(--primary-color);
   background: none;
   border: var(--primary-color) solid 1px;
   width: 170px;
   height: 49px;
-  margin: 0 auto;
+  display: block;
+  margin: 75px auto;
+}
+.btn-gallery:hover {
+  background: lightgray;
 }
 
-.btn-secondary::after {
-  
+.btn-gallery::after {
+  content: "";
+  background: url(../img/arrow-gallery-btn.svg) no-repeat;
+  width: 26px;
+  height: 0;
 }
 /***********************gallery-end************************************/
+.feedback-section {
+  /* background: rgba(47, 47, 47, 0.95); */
+}
+.img-feedback {
+  width: 492px;
+  height: 550px;
+ background: rgba(47, 47, 47, 0.6);
+}
 
+.feedback-heading {
+  font-size: 34px;
+  color: var(--text-light);
+}
+
+.feedback-content {
+  width: 514px;
+  height: 342px;
+}
 .footer {
   padding: var(--section-gutter) 0;
   background: var(--secondary-color);
