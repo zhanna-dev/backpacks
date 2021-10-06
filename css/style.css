@@ -280,7 +280,7 @@ table {
 /* *********************common-styles********************************** */
 :root {
   --primary-color: #f59b00;
-  --secondary-color: hsla(0, 0%, 18%, 0.966);
+  --secondary-color: rgba(46, 46, 46, 0.966);
   --text-dark: #2f2f2f;
   --text-light: #ffffff;
   --text-light-a: rgba(255, 255, 255, 0.6);
@@ -540,21 +540,63 @@ p {
 }
 /***********************gallery-end************************************/
 /***********************feedback-start************************************/
+/* .feedback-form {
+  /* margin: 100px 70px; */
+/* width: 514px;
+  height: 342px; */
 
-.img-feedback {
-  width: 300px;
-  height: 300px;
+.feedback-form {
+  background: rgba(47, 47, 47, 0.95);
+  /* width: 600px;
+  height: 500px; */
+  /* /background: url(../img/feedback-bg.webp); */
 }
-
-.feedback-content {
-  background: var(--secondary-color);
-  width: 800px;
-  height: 670px;
+.feedback-form-wrap {
+  display: flex;
+  gap: 50px;
 }
 
 .heading-feedback {
   font-size: 34px;
   color: var(--text-light);
+  padding: 100px 137px 43px 70px;
+}
+
+.img-feedback {
+  width: 490px;
+  height: auto;
+}
+
+.name,
+.email {
+  padding: 20px 20;
+  line-height: 1.2;
+  border-radius: 10px;
+  background: none;
+  padding: 20px 120px 20px 20px;
+}
+
+.address {
+  width: 100%;
+  padding: 20px 0 20px 20px;
+  background: none;
+  border-radius: 10px;
+  /* padding: 20px 380px 20px 20px; */
+  margin-top: 30px;
+}
+.input {
+  color: var(--text-light);
+  margin-top: 30px;
+}
+
+.checkbox {
+  color: var(--text-light);
+}
+
+.btn-feedback {
+  width: 133px;
+  height: 49px;
+  margin: 30px 0 0 50px;
 }
 
 /***********************feedback-end************************************/
