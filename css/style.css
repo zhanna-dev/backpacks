@@ -547,8 +547,7 @@ p {
   height: 70px;
 }
 
-/***********************feedback-start************************************/
-
+/* ***********************feedback-start*************************************/
 .feedback-form {
   background: rgba(47, 47, 47, 0.95);
   /* background: url(../img/feedback-bg.webp) no-repeat center center/cover, */
@@ -575,7 +574,6 @@ p {
 
 .feedback-name,
 .feedback-email,
-.feedback-address,
 .feedback-input {
   padding: 20px 20px;
   line-height: 1.2;
@@ -640,8 +638,9 @@ ul > li > a :hover {
 }
 
 .footer-email {
-  background: none;
+  /* background: none; */
   border-radius: 10px solid #b0a9a9;
+  background: none;
 }
 
 .btn-footer {
