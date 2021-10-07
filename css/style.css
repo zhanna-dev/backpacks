@@ -560,6 +560,7 @@ p {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin: 43px 77px 38px 63px;
 }
 .feedback-heading {
   font-size: 34px;
@@ -576,7 +577,7 @@ p {
 .feedback-email,
 .feedback-address,
 .feedback-input {
-  padding: 20px 20;
+  padding: 20px 20px;
   line-height: 1.2;
   border-radius: 10px;
   background: none;
@@ -587,10 +588,6 @@ p {
 .feedback-address {
   width: 100%;
   padding: 20px 0 20px 20px;
-  margin-top: 30px;
-}
-
-.feedback-checkbox {
   margin-top: 30px;
 }
 
