@@ -535,9 +535,9 @@ p {
 
 .btn-transporent::after {
   content: "";
-  background: url(../img/Arrow\ 1.svg);
+  background: url(../img/Arrow1.svg) no-repeat;
   width: 26px;
-  height: 3px;
+  height: 1px;
 }
 /***********************gallery-end************************************/
 /***********************brends-start************************************/
@@ -548,26 +548,23 @@ p {
 }
 
 /***********************feedback-start************************************/
-/* .feedback-form {
-  /* margin: 100px 70px; */
-/* width: 514px;
-  height: 342px; */
 
 .feedback-form {
   background: rgba(47, 47, 47, 0.95);
-  /* width: 600px;
-  height: 500px; */
-  /* /background: url(../img/feedback-bg.webp); */
+  /* background: url(../img/feedback-bg.webp) no-repeat center center/cover, */
+  /* rgba(47, 47, 47, 0.95); */
+  color: rgba(255, 255, 255, 1);
 }
-.feedback-form-wrap {
+.feedback-form-group {
   display: flex;
-  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.heading-feedback {
+.feedback-heading {
   font-size: 34px;
   color: var(--text-light);
-  padding: 100px 137px 43px 70px;
+  margin: 100px 137px 43px 70px;
 }
 
 .img-feedback {
@@ -575,30 +572,26 @@ p {
   height: auto;
 }
 
-.name,
-.email {
+.feedback-name,
+.feedback-email,
+.feedback-address,
+.feedback-input {
   padding: 20px 20;
   line-height: 1.2;
   border-radius: 10px;
   background: none;
-  padding: 20px 120px 20px 20px;
+  width: 232px;
+  height: 54px;
 }
 
-.address {
+.feedback-address {
   width: 100%;
   padding: 20px 0 20px 20px;
-  background: none;
-  border-radius: 10px;
-  /* padding: 20px 380px 20px 20px; */
-  margin-top: 30px;
-}
-.input {
-  color: var(--text-light);
   margin-top: 30px;
 }
 
-.checkbox {
-  color: var(--text-light);
+.feedback-checkbox {
+  margin-top: 30px;
 }
 
 .btn-feedback {
@@ -606,16 +599,16 @@ p {
   height: 49px;
   margin: 30px 0 0 50px;
 }
-
 /***********************feedback-end************************************/
 /***********************footer-start************************************/
 .footer {
   padding: var(--section-gutter) 0;
   /* background: var(--secondary-color); */
-  background: url(../img/footer-bg.png) no-repeat 50% 50% / cover,
-    rgba(47, 47, 47, 0.92);
+  /* background: url(../img/footer-bg.webp) no-repeat 50% 50% / cover, */
+  /* rgba(47, 47, 47, 0.95); */
+  background: rgba(47, 47, 47, 0.95);
+  color: var(--text-light);
 }
-
 
 .footer-logo {
   background: url(../img/text-deco.webp) 0 50% / auto 300%;
@@ -624,24 +617,37 @@ p {
   -webkit-text-fill-color: rgba(255, 255, 255, 0.5);
   font-size: 31px;
   font-weight: bold;
+  margin-bottom: 15px;
 }
 
 .footer-heading {
   font-size: 20px;
   line-height: 1.3;
   margin-bottom: 20px;
-  color: var(--text-light);
+  /* color: var(--text-light); */
 }
 
 ul > li > a {
-  color: rgba(255, 255, 255, 1);
+  /* color: var(--text-light); */
   line-height: 1.6;
+}
+
+ul > li > a :hover {
+  text-decoration: underline;
 }
 
 .footer-text {
   line-height: 1.6;
-  color: var(--text-light);
+  /* color: var(--text-light); */
   font-weight: regular;
 }
 
+.footer-email {
+  background: none;
+  border-radius: 10px solid #b0a9a9;
+}
+
+.btn-footer {
+  margin-top: 30px;
+}
 /***********************footer-end************************************/
