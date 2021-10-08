@@ -527,10 +527,10 @@ p {
   border: var(--primary-color) solid 1px;
   display: block;
   margin: 75px auto;
-  padding: 0;
 }
-.btn-gallery:hover {
-  background: lightgray;
+
+.btn-transporent:hover {
+  background: var(--primary-color);
 }
 
 .btn-transporent::after {
@@ -547,12 +547,13 @@ p {
   height: 70px;
 }
 
-/* ***********************feedback-start*************************************/
+/*************************feedback-start*************************************/
 .feedback-form {
   background: rgba(47, 47, 47, 0.95);
   /* background: url(../img/feedback-bg.webp) no-repeat center center/cover, */
   /* rgba(47, 47, 47, 0.95); */
 }
+
 .feedback-form-group {
   display: flex;
   flex-wrap: wrap;
@@ -560,6 +561,7 @@ p {
   align-items: center;
   margin: 43px 77px 38px 63px;
 }
+
 .feedback-heading {
   font-size: 34px;
   color: var(--text-light);
@@ -571,9 +573,27 @@ p {
   height: auto;
 }
 
+.feedback-checkbox::before {
+  content: "";
+  display: block;
+  width: 11px;
+  height: 12px;
+  background: none;
+}
+
+.feedback-checkbox-text {
+  color: rgba(255, 255, 255, 0.226);
+}
+
+/* .feedback-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+
 .feedback-name,
-.feedback-email,
-.feedback-input {
+.feedback-email {
   padding: 20px 20px;
   line-height: 1.2;
   border-radius: 10px;
@@ -586,6 +606,8 @@ p {
   width: 100%;
   padding: 20px 0 20px 20px;
   margin-top: 30px;
+  border-radius: 10px;
+  background: none;
 }
 
 .btn-feedback {
