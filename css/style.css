@@ -312,7 +312,7 @@ button {
   cursor: pointer;
 }
 
-.link:hover {
+.link {
   text-decoration: underline;
 }
 
@@ -696,7 +696,7 @@ ul > li > a {
 }
 
 ul > li > a :hover {
-  text-decoration: underline;
+  background: var(--primary-color);
 }
 
 .footer-text {
@@ -706,7 +706,6 @@ ul > li > a :hover {
 }
 
 .footer-email {
-  /* background: none; */
   border-radius: 10px solid #b0a9a9;
   background: none;
 }
@@ -718,11 +717,10 @@ ul > li > a :hover {
   padding: 20px;
   border-radius: 10px;
   width: 100%;
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
 }
 
-
-.btn-footer {
-  margin-top: 30px;
+.btn-footer:hover {
+  color: var(--text-dark);
 }
 /***********************footer-end************************************/
