@@ -690,15 +690,6 @@ p {
   /* color: var(--text-light); */
 }
 
-ul > li > a {
-  /* color: var(--text-light); */
-  line-height: 1.6;
-}
-
-ul > li > a :hover {
-  background: var(--primary-color);
-}
-
 .footer-text {
   line-height: 1.6;
   /* color: var(--text-light); */
@@ -719,8 +710,15 @@ ul > li > a :hover {
   width: 100%;
   margin-bottom: 30px;
 }
-
+ul > li > a {
+  line-height: 1.6;
+}
 .btn-footer:hover {
   color: var(--text-dark);
 }
+
+.footer-link:hover {
+  color: var(--primary-color);
+}
+
 /***********************footer-end************************************/
