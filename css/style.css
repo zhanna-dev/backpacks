@@ -710,15 +710,17 @@ p {
   width: 100%;
   margin-bottom: 30px;
 }
-ul > li > a {
-  line-height: 1.6;
-}
+
 .btn-footer:hover {
   color: var(--text-dark);
+}
+.footer-link {
+  line-height: 1.6;
 }
 
 .footer-link:hover {
   color: var(--primary-color);
+  line-height: 1.6;
 }
 
 /***********************footer-end************************************/
