@@ -15,26 +15,30 @@
 
 <body>
   <header class="header mt-4">
-    <div class="container">
-      <nav class="header-navbar">
-        <a href="/" class="logo text-deco"> Bag </a>
-        <div class="header-menu-wrap">
-          <ul class="header-nav">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        <a href="/" class="logo text-deco navbar-brand"> Bag </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="header-nav navbar-nav ms-auto">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Feature</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Product</a></li>
+            <li><a href="#feature">Feature</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#product">Product</a></li>
           </ul>
-          <button type="button" class="btn">Shop now</button>
+          <button type="button" class="btn ms-3">Shop now</button>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
   <main class="main">
     <section class="hero">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-5 hero-info">
+          <div class="col-sm-9 col-md-6 col-xl-5 hero-info">
             <h1 class="subheading hero-subheading">Look Stylish Be Stylish.</h1>
             <h2 class="heading hero-heading">
               Look Stylish <br />
@@ -50,7 +54,7 @@
                 alt="cta" />
             </div>
           </div>
-          <div class="col-7 d-flex">
+          <div class="col-sm-6 col-xl-7 d-flex">
             <img class="hero-img ms-auto" width="1" height="1" loading="lazy" decoding="async" src="./img/hero-img.webp"
               alt="hero img the girl with backpack" />
           </div>
@@ -58,34 +62,35 @@
       </div>
     </section>
   </main>
-  <section class="categories section">
+  <section class="categories section" id="feature">
     <div class="container">
       <nav class="nav nav-tabs row">
-        <a href="#waterresist" class="col-3 cat-tab categories-heading" data-bs-toggle="tab"
+        <a href="#waterresist" class="col-sm-6 mb-4 mb-md-0 col-md-3 cat-tab categories-heading" data-bs-toggle="tab"
           data-bs-target="#waterresist">Water Resistant</a>
-        <a href="#charging" class="col-3 cat-tab categories-heading active" data-bs-toggle="tab"
-          data-bs-target="#charging">Charging System</a>
-        <a href="#artificial" class="col-3 cat-tab categories-heading" data-bs-toggle="tab"
+        <a href="#charging" class="col-sm-6 mb-4 mb-md-0 col-md-3 cat-tab categories-heading active"
+          data-bs-toggle="tab" data-bs-target="#charging">Charging System</a>
+        <a href="#artificial" class="col-sm-6 mb-4 mb-md-0 col-md-3 cat-tab categories-heading" data-bs-toggle="tab"
           data-bs-target="#artificial">Artificial Leather</a>
-        <a href="#modern" class="col-3 cat-tab categories-heading" data-bs-toggle="tab" data-bs-target="#modern">Modern
+        <a href="#modern" class="col-sm-6 mb-4 mb-md-0 col-md-3 cat-tab categories-heading" data-bs-toggle="tab"
+          data-bs-target="#modern">Modern
           Clothes</a>
       </nav>
       <div class="tab-content">
         <div class="tab-pane fade" id="waterresist">
           <div class="row mt-5">
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-charge-img.webp" alt="pic charging system backpack" />
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-water-img.webp" alt="pic water resistant backpack" />
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-artificial-leather-img.webp" alt="pic artificial leather backpack" />
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-modern-clothes-img.webp" alt="pic modern clothes backpack" />
             </div>
@@ -93,19 +98,19 @@
         </div>
         <div class="tab-pane fade show active" id="charging">
           <div class="row mt-5">
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-water-img.webp" alt="pic water resistant backpack" />
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-charge-img.webp" alt="pic charging system backpack" />
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-artificial-leather-img.webp" alt="pic artificial leather backpack" />
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-modern-clothes-img.webp" alt="pic modern clothes backpack" />
             </div>
@@ -113,19 +118,19 @@
         </div>
         <div class="tab-pane fade" id="artificial">
           <div class="row mt-5">
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-water-img.webp" alt="pic water resistant backpack" />
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-artificial-leather-img.webp" alt="pic artificial leather backpack" />
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-charge-img.webp" alt="pic charging system backpack" />
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-modern-clothes-img.webp" alt="pic modern clothes backpack" />
             </div>
@@ -133,19 +138,19 @@
         </div>
         <div class="tab-pane fade" id="modern">
           <div class="row mt-5">
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-water-img.webp" alt="pic water resistant backpack" />
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-artificial-leather-img.webp" alt="pic artificial leather backpack" />
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-modern-clothes-img.webp" alt="pic modern clothes backpack" />
             </div>
-            <div class="col-3">
+            <div class="col-sm-6 mb-4 mb-lg-0 col-lg-3">
               <img class="category-img" width="1" height="1" loading="lazy" decoding="async"
                 src="./img/cat-charge-img.webp" alt="pic charging system backpack" />
             </div>
@@ -154,14 +159,14 @@
       </div>
     </div>
   </section>
-  <section class="about section">
+  <section class="about section" id="about">
     <div class="container">
       <div class="row about-wrap">
-        <div class="col-7">
+        <div class="col-sm-9 order-1 order-md-0 col-md-6 col-xl-7">
           <img class="about-img" width="1" height="1" loading="lazy" decoding="async" src="./img/about-group-img.webp"
             alt="about img" />
         </div>
-        <div class="col-5 about-info">
+        <div class="col-sm-9 col-md-6 col-xl-5 about-info">
           <h2 class="subheading about-subheading">Creative bag only for you.</h2>
           <p class="about-text-bold">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
           <p class="about-text">
@@ -173,43 +178,43 @@
       </div>
     </div>
   </section>
-  <section class="gallery section gallery-section">
+  <section class="gallery section gallery-section" id="product">
     <div class="container gallery-container">
       <h2 class="text-center gallery-heading">Our available product</h2>
       <p class="gallery-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed Do <br />
         eiusmod tempor incididunt ut labore et dolore.
       </p>
-      <div class="row">
-        <div class="col-3 gallery-item gallery-bg-pink">
+      <div class="row justify-content-center">
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item gallery-bg-pink">
           <img class="gallery-img" width="1" height="1" loading="lazy" decoding="async" src="./img/cat-1.webp"
             alt="img puma" />
         </div>
-        <div class="col-3 gallery-item gallery-bg-pink">
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item gallery-bg-pink">
           <img class="gallery-img" width="1" height="1" loading="lazy" decoding="async" src="./img/gallery-2.webp"
             alt="img reebok" />
         </div>
-        <div class="col-3 gallery-item gallery-bg-violet">
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item gallery-bg-violet">
           <img class="gallery-img" width="1" height="1" loading="lazy" decoding="async" src="./img/gallery-3.webp"
             alt="img violet reebok" />
         </div>
-        <div class="col-3 gallery-item gallery-bg-pink">
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item gallery-bg-pink">
           <img class="gallery-img" width="1" height="1" loading="lazy" decoding="async" src="./img/gallery-4.webp"
-            alt="img eastpack brend" />
+            alt="img eastpack brand" />
         </div>
-        <div class="col-3 gallery-item gallery-bg-violet">
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item gallery-bg-violet">
           <img class="gallery-img" width="1" height="1" loading="lazy" decoding="async" src="./img/gallery-5.webp"
             alt="img violet reebok" />
         </div>
-        <div class="col-3 gallery-item gallery-bg-pink">
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item gallery-bg-pink">
           <img class="gallery-img" width="1" height="1" loading="lazy" decoding="async" src="./img/gallery-6.webp"
             alt="img red strong backpack" />
         </div>
-        <div class="col-3 gallery-item gallery-bg-violet">
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item gallery-bg-violet">
           <img class="gallery-img" width="1" height="1" loading="lazy" decoding="async" src="./img/gallery-7.webp"
             alt="img dark blue backpack" />
         </div>
-        <div class="col-3 gallery-item gallery-bg-yellow">
+        <div class="col-sm-6 col-md-4 col-lg-3 gallery-item gallery-bg-yellow">
           <img class="gallery-img" width="1" height="1" loading="lazy" decoding="async" src="./img/gallery-8.webp"
             alt="img yellow backpack" />
         </div>
@@ -220,11 +225,11 @@
   <section class="feedback-section">
     <div class="container feedback-container">
       <div class="row g-0">
-        <div class="col-5 feedback-img-wrap">
+        <div class="col-md-5 feedback-img-wrap">
           <img width="1" height="1" loading="lazy" decoding="async" class="img-feedback" src="./img/feedback-img.webp"
             alt="the back with a red backpack on the back" />
         </div>
-        <form class="col-7 feedback-form">
+        <form class="col-md-7 feedback-form">
           <h2 class="feedback feedback-heading">Lorem ipsum dolor sit amet adipiscing elit.</h2>
           <div class="feedback-form-group">
             <input class="feedback-input short feedback-name" type="text" placeholder="Name" />
@@ -242,24 +247,24 @@
       </div>
     </div>
   </section>
-  <div class="brends section">
+  <div class="brands section">
     <div class="container">
       <div class="row">
-        <div class="col-3">
-          <img class="brend-img" width="1" height="1" loading="lazy" decoding="async" src="./img/brend1.webp"
-            alt="img brend 1" />
+        <div class="col-6 col-md-3">
+          <img class="brand-img" width="1" height="1" loading="lazy" decoding="async" src="./img/brand1.webp"
+            alt="img brand 1" />
         </div>
-        <div class="col-3">
-          <img class="brend-img" width="1" height="1" loading="lazy" decoding="async" src="./img/brend2.webp"
-            alt="img brend 2" />
+        <div class="col-6 col-md-3">
+          <img class="brand-img" width="1" height="1" loading="lazy" decoding="async" src="./img/brand2.webp"
+            alt="img brand 2" />
         </div>
-        <div class="col-3">
-          <img class="brend-img" width="1" height="1" loading="lazy" decoding="async" src="./img/brend3.webp"
-            alt="img brend 3" />
+        <div class="col-6 col-md-3">
+          <img class="brand-img" width="1" height="1" loading="lazy" decoding="async" src="./img/brand3.webp"
+            alt="img brand 3" />
         </div>
-        <div class="col-3">
-          <img class="brend-img" width="1" height="1" loading="lazy" decoding="async" src="./img/brend4.webp"
-            alt="img brend 4" />
+        <div class="col-6 col-md-3">
+          <img class="brand-img" width="1" height="1" loading="lazy" decoding="async" src="./img/brand4.webp"
+            alt="img brand 4" />
         </div>
       </div>
     </div>
@@ -267,11 +272,11 @@
   <footer class="footer">
     <div class="container">
       <div class="row row-wrap">
-        <div class="col-3">
+        <div class="mb-5 mb-xl-0 text-start text-lg-center text-xl-start col-xl-3">
           <a class="footer-logo text-deco" href="/">Bag</a>
           <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipiscing sed do eiusmod.</p>
         </div>
-        <div class="col-3">
+        <div class="order-1 order-lg-0 col-sm-6 col-lg-4 col-xl-3">
           <h2 class="footer-heading">Special Catagories</h2>
           <ul>
             <li><a class="footer-link" href="#">Water Resistant</a></li>
@@ -279,18 +284,18 @@
             <li><a class="footer-link" href="#">Artificial Leather</a></li>
           </ul>
         </div>
-        <div class="col-3">
+        <div class="order-1 order-lg-0 col-sm-6 col-lg-4 col-xl-3">
           <h2 class="footer-heading">Contact Us</h2>
           <ul>
             <li><a class="footer-link" href="tel:+8085550111">808-555-0111</a></li>
-            <li><a class="footer-link" href="#">Michelle.rivera@example.com</a></li>
-            <li><a class="footer-link" href="#">Http://www.codehow.com</a></li>
+            <li><a class="footer-link" href="mailto:Michelle.rivera@example.com">Michelle.rivera@example.com</a></li>
+            <li><a class="footer-link" href="//www.codehow.com">Http://www.codehow.com</a></li>
           </ul>
         </div>
-        <div class="col-3">
+        <div class="col-sm-7 mb-5 mb-lg-0 col-lg-4 col-xl-3">
           <h2 class="footer-heading">News Latter</h2>
           <form class="form-email-group">
-            <input class="footer-email" type="email" placeholder="Enter Your Email" />
+            <input class="feedback-input" type="email" placeholder="Enter Your Email" name="email" required />
             <button type="submit" class="btn btn-footer">Subscribe</button>
           </form>
         </div>
